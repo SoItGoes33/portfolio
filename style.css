@@ -1,0 +1,66 @@
+html {
+  font-family: Garamond, Times, Arial;
+  background: #E0E0E0;
+}
+
+#header {
+	background-color: #5F9EA0;
+	width: 100%;
+	position: relative;
+}
+
+img {
+	border-radius: 150px;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+
+}
+
+h1 {
+	text-align: center;
+	color: #800000;
+	font-size: 50px;
+}
+
+h2 {
+	color: #993366;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.image-1 {
+height:75px;
+width: 75px;
+border: solid orange 3px
+;
+}
+
+.image-2 {
+height: 75px;
+width: 75px;
+border: solid orange 3px;
+img-align="left";
+}
+
+.image-3 {
+height: 75px;
+width: 75px;
+border: solid orange 3px;
+img align: "right";                                                                         
+}
+
+a {
+	font-family: Arial, Times, Garamond;
+	font-weight: bold;
+}
+.img
+display: block;
+    margin-left: auto;
+    margin-right: auto;
