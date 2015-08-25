@@ -1,0 +1,59 @@
+html {
+  font-family: Garamond, Times, Arial;
+  background: #E0E0E0;
+}
+
+#header {
+	background-color: #5F9EA0;
+	width: 100%;
+	position: relative;
+}
+
+img {
+	border-radius: 150px;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+
+}
+
+h1 {
+	text-align: center;
+	color: #800000;
+	font-size: 50px;
+}
+
+h2 {
+	color: #993366;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.image-1 {
+height: 200px;
+width: 200px;
+border: solid orange 3px;
+}
+
+.image-2 {
+height: 200px;
+width: 200px;
+border: solid orange 3px;
+}
+
+.image-3 {
+height: 200px;
+width: 200px;
+border: solid orange 3px;
+}
+
+a {
+	font-family: Arial, Times, Garamond;
+	font-weight: bold;
+}
