@@ -58,35 +58,31 @@ border-radius: 150px;
 
 .section1 {
 	font-family: Georgia, Serif, Courier;
-	font-size: 12pt;
+	font-size: 14pt;
 	color: #191970;
-	text-align: center;
-	vertical-align: center;
-	margin-right: auto;
-	margin-left: auto;
+	text-align: justify;
+	margin-right: 25%;
+	margin-left: 25%;
 }
 
 .section2 {
 	font-family: Georgia, Serif, Courier;
-	font-size: 12pt;
+	font-size: 14pt;
 	color: #191970;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
+	text-align: justify;
+	margin-right: 25%;
+	margin-left:25%;
 }
 
-div.leftnav {
+.leftnav {
 	font-family: Helvetica, Times, Arial;
 	font-weight: bold;
 	width: 25%;
 	float: left;
 	margin: 25px;
-	a.rightnav:link {color: #000080;}
-	a.rightnav:visited {color: #7B68EE;}
-	a.rightnav:hover {color: #87CEFA;}
 }
 
-div.leftnav ul{
+.leftnav ul{
 		list-style:none;
 		display:inline-block;
 	a.rightnav:link {color: #000080;}
@@ -110,7 +106,7 @@ div.rightnav {
 }
 
 button {
-	vertical-align: middle;
+	vertical-align: center;
 	display: inline;
 	margin-left: 21%;
 	margin-right:21%;
@@ -118,7 +114,7 @@ button {
 }
 
 div#footer {
-	font-family: Serif Georgia Courier;
+	font-family: Serif, Georgia, Courier;
 	background-color: #B0E0E6;
 	clear: both;
 	a.footer:link {color: #000080;}
@@ -138,10 +134,36 @@ div#footer li {
 	text-align: center;
 	vertical-align: middle;
 }
+
+h5 {
+font-family: Georgia, Garamond, Serif;
+font-size: 16px;
+font-weight: bold;
+color: #6495ED;
+margin-left: 25%;
+}
+
+.form1 {
+font-family: Georgia, Garamond, Serif;
+color: #6495ED;
+margin-left: 25%;
+}
+
+input {
+	color: #4B0082;
+}
+
+textarea{
+  width: 60%;
+  height: 60%;
+  font-size: 10px;
+  border: 1px solid;
+	}
+
 	
 
 
-}
+
 
 
 
