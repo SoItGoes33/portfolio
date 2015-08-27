@@ -1,135 +1,161 @@
-<<<<<<< HEAD
+
 html {
   font-family: Garamond, Times, Arial;
   background: #E0E0E0;
 }
 
 #header {
-	background-color: #5F9EA0;
 	width: 100%;
 	position: relative;
-}
-
-img {
-	border-radius: 150px;
-}
-
-.logo {
-	height: 50px;
-	width: 50px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	float:left;
-
+	vertical-align: center;
+	text-align: center;
+	background-image: url(http://www.uib.no/sites/w3.uib.no/files/w2/co/colourbox5013534.jpg);
 }
 
 h1 {
-	text-align: center;
-	color: #800000;
+	color: #48D1CC;
 	font-size: 50px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	text-shadow: 2px 2px #808080;
 }
 
 h2 {
-	color: #993366;
-	font-weight: bolder;
-	text-align: center;
+	color: #008B8B;
+	font-weight: bold;
+	display: inline;
+	text-shadow: 2px 2px #000000;
 }
 
 .image-1 {
-height:75px;
+height: 75px;
 width: 75px;
-border: solid orange 3px
-;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: #20B2AA solid 3px;
+border-radius: 150px;
 }
 
 .image-2 {
 height: 75px;
 width: 75px;
-border: solid orange 3px;
-img-align="left";
+display: block;
+margin-right: 65%;
+float: right;
+border: #20B2AA solid 3px;
+border-radius: 150px;
 }
 
 .image-3 {
 height: 75px;
 width: 75px;
-border: solid orange 3px;
-img align: "right";                                                                         
+display: block;
+margin-left: 65%;
+border: #20B2AA solid 3px;  
+border-radius: 150px;                                                                       
 }
 
-a {
+.section1 {
+	font-family: Georgia, Serif, Courier;
+	font-size: 14pt;
+	color: #191970;
+	text-align: justify;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.section2 {
+	font-family: Georgia, Serif, Courier;
+	font-size: 14pt;
+	color: #191970;
+	text-align: justify;
+	margin-right: 25%;
+	margin-left:25%;
+}
+
+.leftnav {
+	font-family: Helvetica, Times, Arial;
+	font-weight: bold;
+	width: 25%;
+	float: left;
+	margin: 25px;
+}
+
+.leftnav ul{
+		list-style:none;
+		display:inline-block;
+	a.rightnav:link {color: #000080;}
+	a.rightnav:visited {color: #7B68EE;}
+	a.rightnav:hover {color: #87CEFA;}
+}
+
+div.rightnav {
 	font-family: Arial, Times, Garamond;
 	font-weight: bold;
+	width: 25%;
+	float: right;
+	margin: 25px;
 }
-.img
-display: block;
-    margin-left: auto;
-    margin-right: auto;
-=======
-html {
-  font-family: Garamond, Times, Arial;
-  background: #E0E0E0;
-}
-
-#header {
-	background-color: #5F9EA0;
-	width: 100%;
-	position: relative;
+	div.rightnav ul{
+		list-style:none;
+		display:inline-block;
+	a.rightnav:link {color: #000080;}
+	a.rightnav:visited {color: #7B68EE;}
+	a.rightnav:hover {color: #87CEFA;}
 }
 
-img {
-	border-radius: 150px;
+button {
+	vertical-align: center;
+	display: inline;
+	margin-left: 21%;
+	margin-right:21%;
+	box-shadow: 1px 1px #708090;
 }
 
-.logo {
-	height: 50px;
-	width: 50px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	float:left;
-
+div#footer {
+	font-family: Serif, Georgia, Courier;
+	background-color: #B0E0E6;
+	clear: both;
+	a.footer:link {color: #000080;}
+	a.footer:visited {color: #7B68EE;}
+	a.footer:hover {color: #87CEFA;}
 }
 
-h1 {
+div#footer ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+div#footer li {
+	width: 200px;
+	display: inline-block;
 	text-align: center;
-	color: #800000;
-	font-size: 50px;
+	vertical-align: middle;
 }
 
-h2 {
-	color: #993366;
-	font-weight: bolder;
-	text-align: center;
+h5 {
+font-family: Georgia, Garamond, Serif;
+font-size: 16px;
+font-weight: bold;
+color: #6495ED;
+margin-left: 25%;
 }
 
-.image-1 {
-height:75px;
-width: 75px;
-border: solid orange 3px
-;
+.form1 {
+font-family: Georgia, Garamond, Serif;
+color: #6495ED;
+margin-left: 25%;
 }
 
-.image-2 {
-height: 75px;
-width: 75px;
-border: solid orange 3px;
-img-align="left";
+input {
+	color: #4B0082;
 }
 
-.image-3 {
-height: 75px;
-width: 75px;
-border: solid orange 3px;
-img align: "right";                                                                         
-}
-
-a {
-	font-family: Arial, Times, Garamond;
-	font-weight: bold;
-}
-.img
-display: block;
-    margin-left: auto;
-    margin-right: auto;
->>>>>>> 69d6c4195d1ab12c794519fc587ca946ba7d91c2
+textarea{
+  width: 60%;
+  height: 60%;
+  font-size: 10px;
+  border: 1px solid;
+	}
