@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
     <body>
+    <script src="script.js"></script>
     <div id="header">
               
 <a href="https://www.facebook.com"><img class="image-1" src ="https://lh3.googleusercontent.com/-hDV-U9em-ls/VdEiiQvJHRI/AAAAAAAALco/NIIjIBe5ZBI/s225-Ic42/1795750_991379784206006_8169563789885826425_n.jpg"/></a>
@@ -38,14 +39,18 @@
 
 <div class="section2"><a name="section2"></a><h4>European History</h4><p>In European folklore, the unicorn is often depicted as a white horse-like or goat-like animal with a long horn and cloven hooves (sometimes a goat's beard). In the Middle Ages and Renaissance, it was commonly described as an extremely wild woodland creature, a symbol of purity and grace, which could only be captured by a virgin. In the encyclopedias its horn was said to have the power to render poisoned water potable and to heal sickness. In medieval and Renaissance times, the tusk of the narwhal was sometimes sold as unicorn horn.</p></div>
 
-<h5><p>Projects</h8></p><br>
-<img src="images/proj1.png" class="proj1">
-<img src="images/proj2.png" class="proj2">
+<h5><p>Projects</h8></p>
+<a class="thumbnail" href="#thumb"><img src="images/proj1thumb.png" width="160px" height="86px" border="1px solid navy" /><span><img src="images/proj1.png" /><br />Project 1</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="images/proj2thumb.png" width="160px" height="86px" border="1px solid navy" /><span><img src="images/proj2.png" /><br />Project 2</span></a>
+
+<br />
+<br />
 
 <h6>If moved by this website, please contact me:</h5>
 
 <div class="form1">
-<form action="http://formspree.io/" method="POST" onSubmit="alert("Thank you for filling out my form.  Your contribution has been noted.")">
+<form action="http://formspree.io/" method="POST">
   <p><label>First name: 
     <input type="text" name="firstname" /></label></p>
   <p><label>Last name:
@@ -61,6 +66,8 @@
   <p>
   <input name="submit" type="submit" value="Submit" color:"#00008B">
   <input type="reset" name="reset" value="Reset" />
+  <input type="hidden" name="form_submitted" value="yes"/>
+  <div id="loading" style="display:none"><alert>Thank you for filling out my form.  Your contribution has been noted.</alert></div>
 </p>
 
 </form>
